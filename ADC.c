@@ -4,7 +4,6 @@
 uint32_t ADCBuf,ADCFlag;
 uint8_t Buff[20];
 
-
 void ADC_Init (void)
 {
 	LPC_SYSCON->SYSAHBCLKCTRL |= (1<<16);	

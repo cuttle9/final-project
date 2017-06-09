@@ -5,7 +5,6 @@ volatile uint8_t UART_Flag;
 uint8_t UART_Buff[10];
 uint32_t UART_Num;
 
-
 void UART_Init (uint32_t UART_BPS)
 {
 	uint16_t DD;

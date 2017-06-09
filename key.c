@@ -1,7 +1,6 @@
 #include "KEY.h"
  
-uint8_t KEY = 1;
-
+ uint8_t KEY = 1;
 
 void KEY_Inti (void)
 {

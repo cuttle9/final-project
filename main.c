@@ -7,8 +7,6 @@ extern volatile uint8_t UART_Flag;
 char AD_Data_Buff[20];
 extern uint8_t KEY;
 
-
-
 int main (void)
 {
 	float Temp,buff; 
